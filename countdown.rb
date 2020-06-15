@@ -1,15 +1,17 @@
 #write your code here
 
-def countdown
-
-  while n < 10
-    puts "#{n} SECOND(S)!"
-    x += 1
+def countdown(seconds_to_midnight)
+  while seconds_to_midnight > 0
+    puts "#{seconds_to_midnight} SECOND(S)!"
+    seconds_to_midnight -= 1
   end
-
-  until n == 1
-    puts "HAPPY NEW YEAR!"
-    n += 1
+  "HAPPY NEW YEAR!"
+  
+def countdown_with_sleep(seconds_to_midnight)
+  while seconds_to_midnight > 0
+    puts "#{seconds_to_midnight} SECOND(S)!"
+    seconds_to_midnight -= 1
   end
+  "HAPPY NEW YEAR!"
     
 end
