@@ -10,4 +10,6 @@ def countdown
   until n == 1
     puts "HAPPY NEW YEAR!"
     n += 1
+  end
+    
 end
